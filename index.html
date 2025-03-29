@@ -1,116 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gustavo Feriani | Portfólio</title>
+    <title>Login</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="css/style.css">
 
-    <!-- BootStrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
+
 <body>
+    <section id="" class="">
 
-    <!-- MENU -->
-    <header id="header">
-        <!-- menu desktop -->
-        <nav class="header-nav">
-            <ul class="menu menu-principal"> <!-- lista nao ordenada -->
-                <li class="menu-item">
-                    <a href="#home" class="menu-link active">
-                        <span class="menu-texto"> home </span>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="#projetos" class="menu-link">
-                        <span class="menu-texto"> Projetos </span>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="#sobre" class="menu-link">
-                        <span class="menu-texto"> Sobre </span>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="#contato" class="menu-link">
-                        <span class="menu-texto"> Contato </span>
-                    </a>
-                </li>
-            </ul>
-        </nav> <!-- Fim menu desktop -->
 
-        <!-- logo -->
-        <div>
+        <div class="from-container">
+            <form>
+                <h1>Criar Conta</h1>
+                <div class="social-icons">
+                    <a href="/" class="icon">
+                        <i class='bx bxl-google'></i>
+                    </a>
+                    <a href="/" class="icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="/" class="icon">
+                        <i class='bx bxl-google'></i>
+                    </a>
+                    <a href="/" class="icon">
+                        <i class='bx bxl-google'></i>
+                    </a>
+
+                </div>
+            <span>Ou use o seu E-mail para o Cadastro</span>
+            <input type="text" placeholder="nome">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Senha">
+            <Button>Cadastrar</Button>
+           </form>
+        </div>
+
+        <div class="from-container sign-in">
+            <form>
+                <h1>Entrar</h1>
+                <div class="social-icons">
+                    <a href="/" class="icon">
+                        <i class='bx bxl-google'></i>
+                    </a>
+                    <a href="/" class="icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="/" class="icon">
+                        <i class='bx bxl-google'></i>
+                    </a>
+                    <a href="/" class="icon">
+                        <i class='bx bxl-google'></i>
+                    </a>
+
+                </div>
+            <span>Ou use o seu E-mail para o Cadastro</span>
+
+            <input type="text" placeholder="nome">
+            <input type="email" placeholder="Email">
+
             <a href="#">
-
-                <img src="" alt="">
-                <i class="bi bi-sun"> </i>
+                Esqueceu a Senha?
             </a>
+
+            <button>Entrar</button>
+            
+           </form>
         </div>
 
-        <!-- trocar cor tema -->
-        <div class="header-toggle">
-            <i id="toggleTheme" class="bi bi-sun"></i>
+        <div class="toggle-teme">
+            <div class="toggle">
+                <div class="toggle-painel toggle-left"> 
+                    <h2>Bem Vindo de Volta!</h2>
+                    <p>Digite seus dados pessoais para usar todos recursos do site.</p>
+                    <button class="hidden" id="login"> Entre </button>
+                </div>
+
+                <div class="toggle-painel toggle right">
+                    <h2>Olá,...</h2>
+                    <p>Cadastre-se com seus dados pessoais</p>
+                    <button class="hidden" id="Register"> Inscrever-se</button>
+
+                </div>
+
+            </div>
         </div>
 
-    </header>
-    <!-- FIM MENU DESKTOP -->
-
-    <!-- Menu Mobile -->
-    <nav class="nav-mobile">
-        <ul class="menu menu-mobile">
-            <li class="menu-item">
-                <a href="#home" class="menu-link active">
-                    <i class="menu-icone bi bi-house-door"></i>
-                    <span class="menu-texto">
-                        Home
-                    </span>
-                </a>
-            </li>
-
-            <li class="menu-item">
-                <a href="#projetos" class="menu-link">
-                    <i class="menu-icone bi bi-images"></i>
-                    <span class="menu-texto">
-                        Projetos
-                    </span>
-                </a>
-            </li>
-
-            <li class="menu-item">
-                <a href="#sobre" class="menu-link">
-                    <i class="menu-icone bi bi-person-fill"></i>
-                    <span class="menu-texto">
-                        Sobre
-                    </span>
-                </a>
-            </li>
-
-            <li class="menu-item"> 
-                <a href="#contato" class="menu-link">
-                    <i class="menu-icone bi bi-envelope-fill"> </i>
-                    <span class="menu-texto">
-                        Contato
-                    </span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-    <!-- Fim Menu Mobile -->
-
-    <main id="home">
-        <div class="main-content">
-
-            <h1> 
-                
-            </h1>
-
-        </div>
-    </main>
-
+        
+    </section>
 </body>
-
 </html>
